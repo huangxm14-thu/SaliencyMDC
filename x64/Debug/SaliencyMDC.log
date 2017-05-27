@@ -1,0 +1,40 @@
+﻿生成启动时间为 2017/5/27 17:56:30。
+     1>项目“D:\MyWork\Paper\Salient\Code\saliencyfilters-master\saliencyfilters-Contrast\DemoCode\VC2012\Code04_20170524Release-rar\SaliencyMDC.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /I.\opencv2.4.9\build\include /I.\opencv2.4.9\build\include\opencv /Zi /nologo /W3 /WX- /Od /D WIN32 /D _DEBUG /D _CONSOLE /D DEBUG_IMG_SAVE /D VL_BUILD_DLL /D OPENCV_SHOW /Gm- /EHsc /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc110.pdb" /Gd /TP /errorReport:prompt imgLib.cpp Saliency.cpp test.cpp
+         imgLib.cpp
+     1>imgLib.cpp(26): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>imgLib.cpp(27): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>imgLib.cpp(31): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>imgLib.cpp(32): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>imgLib.cpp(66): warning C4244: “初始化”: 从“double”转换到“const int”，可能丢失数据
+     1>imgLib.cpp(67): warning C4244: “初始化”: 从“double”转换到“const int”，可能丢失数据
+     1>imgLib.cpp(68): warning C4244: “初始化”: 从“double”转换到“const int”，可能丢失数据
+     1>imgLib.cpp(69): warning C4244: “初始化”: 从“double”转换到“const int”，可能丢失数据
+     1>imgLib.cpp(70): warning C4244: “初始化”: 从“double”转换到“const int”，可能丢失数据
+     1>imgLib.cpp(71): warning C4244: “初始化”: 从“double”转换到“const int”，可能丢失数据
+     1>imgLib.cpp(72): warning C4244: “初始化”: 从“double”转换到“const int”，可能丢失数据
+     1>imgLib.cpp(73): warning C4244: “初始化”: 从“double”转换到“const int”，可能丢失数据
+     1>imgLib.cpp(75): warning C4244: “初始化”: 从“double”转换到“const int”，可能丢失数据
+     1>imgLib.cpp(200): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+     1>imgLib.cpp(202): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+         Saliency.cpp
+     1>Saliency.cpp(114): warning C4244: “=”: 从“const unsigned int”转换到“float”，可能丢失数据
+     1>Saliency.cpp(181): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>Saliency.cpp(222): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+     1>Saliency.cpp(223): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+         test.cpp
+     1>test.cpp(32): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>test.cpp(47): warning C4244: “+=”: 从“int64”转换到“int”，可能丢失数据
+     1>test.cpp(85): warning C4244: “=”: 从“intptr_t”转换到“long”，可能丢失数据
+         正在生成代码...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\MyWork\Paper\Salient\Code\saliencyfilters-master\saliencyfilters-Contrast\DemoCode\VC2012\Code04_20170524Release-rar\x64\Debug\SaliencyMDC.exe" /INCREMENTAL /NOLOGO /LIBPATH:.\opencv2.4.9\build\lib\Debug opencv_core249d.lib opencv_imgproc249d.lib opencv_highgui249d.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\MyWork\Paper\Salient\Code\saliencyfilters-master\saliencyfilters-Contrast\DemoCode\VC2012\Code04_20170524Release-rar\x64\Debug\SaliencyMDC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"D:\MyWork\Paper\Salient\Code\saliencyfilters-master\saliencyfilters-Contrast\DemoCode\VC2012\Code04_20170524Release-rar\x64\Debug\SaliencyMDC.lib" /MACHINE:X64 x64\Debug\imgLib.obj
+         x64\Debug\Saliency.obj
+         x64\Debug\test.obj
+         SaliencyMDC.vcxproj -> D:\MyWork\Paper\Salient\Code\saliencyfilters-master\saliencyfilters-Contrast\DemoCode\VC2012\Code04_20170524Release-rar\x64\Debug\SaliencyMDC.exe
+     1>已完成生成项目“D:\MyWork\Paper\Salient\Code\saliencyfilters-master\saliencyfilters-Contrast\DemoCode\VC2012\Code04_20170524Release-rar\SaliencyMDC.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:03.34
